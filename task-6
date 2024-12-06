@@ -1,0 +1,19 @@
+1) Public class Constructor_1 {
+	
+
+	        String name;
+	        int age;
+
+	        // Constructor
+public Constructor_1() {
+	            this.name = "dharun";
+	            this.age = 25;
+	            System.out.println("Name:" + this.name);
+	            System.out.println("age:"+ this.age);
+	        }
+ public static void main(String[] args) {
+	        Constructor_1 outer = new Constructor_1();
+	         
+	        
+	    }
+	}
